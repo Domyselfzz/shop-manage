@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../libs/bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/s_cart.css"/>
+	</head>
+	<body>
+		<div class="box">
+			<a class="btn btn-default" href="../index.html" role="button">返回首页</a>
+			<table class="table table-bordered" id="table">
+				<thead>
+					<tr>
+				        <th>
+							<label>全选：<input type="checkbox" id="allCheck"/></label><br>
+							<label>反选：<input type="checkbox" id="reCheck"/></label>
+						</th>
+				        <th>名称</th>
+				        <th>单价</th>
+				        <th>数量</th>
+				        <th>编辑</th>
+				    </tr>
+				</thead>
+				<tbody id="content">
+				    <!-- <tr>
+				    	<td><input type="checkbox" class="check"/></td>
+				        <td><span>cdvvdv</span></td>
+				        <td><span>1121</span></td>
+				        <td><span id="num">1</span><input type="text"></td>
+				        <td>
+							   
+							<a class="btn btn-default editBtn" href="javascript:;" role="button">编辑</a>
+							<a class="btn btn-default okBtn" href="javascript:;" role="button">确定</a>
+							<a class="btn btn-default cancelBtn" href="javascript:;" role="button">取消</a>
+							<a class="btn btn-default delBtn" href="javascript:;" role="button">删除</a>
+				        	
+				        </td>
+				    </tr> -->
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="5">总价：￥<b id="money"></b></td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+		<script src="../js/s_cart.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

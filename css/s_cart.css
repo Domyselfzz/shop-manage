@@ -1,0 +1,16 @@
+.box{width: 80%;margin: 0 auto;padding-top: 80px;}
+.table{width: 100%;margin: 30px auto 0;}
+tbody tr td:first-child{
+	text-align: center;
+}
+input[type=text]{
+	display: none;
+}
+tfoot tr td{
+	text-align: right;
+}
+.okBtn,.cancelBtn{ display:none}
+.edit .okBtn, .edit .cancelBtn{display: inline-block;}
+.edit .editBtn, .edit .delBtn{display: none;}
+.edit input[type=text]{display: inline-block;}
+.edit span#num{display: none;}

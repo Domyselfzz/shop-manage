@@ -1,0 +1,26 @@
+.container-fluid{
+    width: 80%;
+}
+.main{
+    width: 75%;
+    margin: 20px auto;
+}
+.s_add{
+    margin: 20px 0 10px;
+}
+.signin{display: none};
+table{}
+table input{display: none;}
+.okBtn, .cancelBtn{
+    display: none;
+}
+
+.edit span{display: none;}
+.edit  input{display: inline-block;}
+.edit .editBtn, .edit .deleteBtn{display: none;}
+.edit .okBtn, .edit .cancelBtn{display: inline-block;}
+
+.mycart{
+	float: right;
+	margin: 20px 0 10px;
+}
